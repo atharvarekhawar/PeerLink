@@ -36,9 +36,9 @@ echo "Installing Maven..."
 sudo apt install -y maven
 
 # Clone repository (uncomment and modify if using Git)
-# echo "Cloning repository..."
-# git clone https://github.com/yourusername/peerlink.git
-# cd peerlink
+echo "Cloning repository..."
+git clone https://github.com/atharvarekhawar/peerlink.git
+cd peerlink
 
 # Build backend
 echo "Building Java backend..."
